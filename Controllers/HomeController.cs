@@ -15,7 +15,9 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        HttpContext.Session.SetString("isLogin", "False");
+        var query = HttpContext.Session.GetString("isLogin");
+        if(query != "True")
+            HttpContext.Session.SetString("isLogin", "False");
         return View();
     }
 
