@@ -141,3 +141,4 @@ C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\refint\MVC_
 C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\MVC_Windows.pdb
 C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\MVC_Windows.genruntimeconfig.cache
 C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\ref\MVC_Windows.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\MVC_Windows.sourcelink.json

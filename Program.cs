@@ -22,6 +22,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<ApplicationDBContext>(options =>{
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+System.Net.ServicePointManager.ServerCertificateValidationCallback +=
+    (sender, certificate, chain, sslPolicyErrors) => true;
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
