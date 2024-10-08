@@ -19,6 +19,13 @@ public class UserController : Controller
     }
     public IActionResult Index()
     {
+        if(model.onLogin != false){
+            return RedirectToAction("Success", "User");
+        }
+        return View();
+    }
+    public IActionResult Success()
+    {
         return View();
     }
 
@@ -27,11 +34,14 @@ public class UserController : Controller
     {
         model.CustomerModelList = _context.customerModel.ToList();
         foreach(var item in model.CustomerModelList){
-            if(model.onLogin != true){
+            if(model.onLogin == true){
                 if(username == item.Username){
                     model.onLogin = true;
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Home", model);
                 }
+            }
+            else{
+                return RedirectToAction("Success", "User", model);
             }
         }
         return View();
