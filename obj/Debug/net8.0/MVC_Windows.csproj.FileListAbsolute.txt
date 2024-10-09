@@ -142,3 +142,12 @@ C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\MVC_Windows
 C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\MVC_Windows.genruntimeconfig.cache
 C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\ref\MVC_Windows.dll
 C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\obj\Debug\net8.0\MVC_Windows.sourcelink.json
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\FirebaseAdmin.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\Google.Api.Gax.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\Google.Apis.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\System.Management.dll
+C:\Users\serhat.saglam\Documents\GitHub\MVC_Windows\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
